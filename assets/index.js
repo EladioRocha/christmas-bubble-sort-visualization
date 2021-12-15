@@ -47,7 +47,6 @@ function playAudio() {
   AUDIO_JINGLE_BELLS.play()
 }
 
-
 /**
  * This function allow to play audion
  */
