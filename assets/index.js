@@ -29,7 +29,6 @@ const DELAY_TIME_MS = 100
 const AUDIO_JINGLE_BELLS = new Audio('./assets/jingle-bells.mp3')
 
 function main() {
-  simulateUserInteraction()
   initSnowTorm()
   generateLeaves()
   bubbleSort()
