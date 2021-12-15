@@ -255,4 +255,4 @@ function delay(ms = 500) {
 
 document.addEventListener("DOMContentLoaded", main)
 // Event that allow to play audio when the page is loaded
-document.addEventListener("mouseover", playAudio)
+document.addEventListener("click", playAudio)
