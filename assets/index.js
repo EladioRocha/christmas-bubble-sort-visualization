@@ -25,8 +25,11 @@ const SIZE_SHAPES = 12 // This is the size in px of shapes (ornnamentals)
 const COLOR_LIGTH_GREEN = "#598061"
 const COLOR_DARK_GREEN = "#386641"
 const DELAY_TIME_MS = 100
+// Import audio 
+const AUDIO_JINGLE_BELLS = new Audio('./assets/jingle-bells.mp3')
 
 function main() {
+  playAudio()
   initSnowTorm()
   generateLeaves()
   bubbleSort()
@@ -34,6 +37,14 @@ function main() {
       addStar()
       showTitle()
     })
+}
+
+/**
+ * Initi audio song.
+ */
+function playAudio() {
+  AUDIO_JINGLE_BELLS.loop = true
+  AUDIO_JINGLE_BELLS.play()
 }
 
 /**
