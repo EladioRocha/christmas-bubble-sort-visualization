@@ -46,6 +46,14 @@ function playAudio() {
   AUDIO_JINGLE_BELLS.play()
 }
 
+
+/**
+ * This function allow to play audion
+ */
+function simulateUserInteraction() {
+  TREE_CONTAINER.click()
+}
+
 /**
  * Initial settings for snowstorm plugin.
  */
