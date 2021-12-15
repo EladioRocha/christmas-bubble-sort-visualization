@@ -51,7 +51,7 @@ function playAudio() {
  * This function allow to play audion
  */
 function simulateUserInteraction() {
-  setTimeout(() => TREE_CONTAINER.click(), DELAY_TIME_MS)
+  setTimeout(() => TREE_CONTAINER.click(), DELAY_TIME_MS * 5)
 }
 
 /**
