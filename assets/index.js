@@ -48,13 +48,6 @@ function playAudio() {
 }
 
 /**
- * This function allow to play audion
- */
-function simulateUserInteraction() {
-  setTimeout(() => document.querySelector(".tree").click(), DELAY_TIME_MS * 5)
-}
-
-/**
  * Initial settings for snowstorm plugin.
  */
 function initSnowTorm() {
