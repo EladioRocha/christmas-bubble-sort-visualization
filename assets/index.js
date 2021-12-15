@@ -29,7 +29,6 @@ const DELAY_TIME_MS = 100
 const AUDIO_JINGLE_BELLS = new Audio('./assets/jingle-bells.mp3')
 
 function main() {
-  playAudio()
   initSnowTorm()
   generateLeaves()
   bubbleSort()
@@ -255,3 +254,5 @@ function delay(ms = 500) {
 }
 
 document.addEventListener("DOMContentLoaded", main)
+// Event that allow to play audio when the page is loaded
+document.addEventListener("mouseover", playAudio)
